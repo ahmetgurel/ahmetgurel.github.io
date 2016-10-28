@@ -1,0 +1,33 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#3498db'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  twitter: imburakoner
+  github: burakoner
+  #bitbucket: 
+  #hacker_news: 
+  #stackexchange: 
+  #stackoverflow: 
+  #facebook: 
+  #tumblr: 
+  #linkedin: 
+  #gplus: 
+  #gravatar: 
+  #flickr: 
+
+# "Hi, I'm _______"
+name: Burak ÖNER
+email: imburakoner@gmail.com
+tagline: "weak opinions, strongly held"
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: UA-xxxx-x
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: false
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+show_atom_feed: true
