@@ -5,23 +5,22 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  twitter: imburakoner
-  github: burakoner
+  twitter: ahmettgurell
+  github: ahmetgurel
   #bitbucket: 
   #hacker_news: 
   #stackexchange: 
   #stackoverflow: 
   #facebook: 
   #tumblr: 
-  #linkedin: 
+  linkedin: ahmetgurell
   #gplus: 
   #gravatar: 
   #flickr: 
 
-# "Hi, I'm _______"
-name: Burak ÖNER
-email: imburakoner@gmail.com
-tagline: "weak opinions, strongly held"
+name: Ahmet GÜREL
+email: ahmetgurel.yazilim@gmail.com
+tagline: "Cyber Security, Linux,Python"
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-xxxx-x
