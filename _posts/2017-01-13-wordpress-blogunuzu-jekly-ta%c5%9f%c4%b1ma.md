@@ -12,7 +12,7 @@ Wordpressi benim gibi sadece blog tutmak için kullanan arkadaşlar sürekli wor
 
 Wordpressi uzun yıllar kullanınca biriken bu yazıları ona geçirmek biraz insanı üşendirebilir.Jekyll markdown .md uzantısı kullanmakta <strong>_post</strong> klasöründe bulunmaktadır.
 
-![Jekyll dizin]({{ site.url }}/assets/1.jpg)
+![Jekyll Dizin](/assets/1.jpg)
 
 Şimdi wordpress teki yazılarınızı ilk olarak <strong>Araçlar -&gt; Dışa Aktar -&gt; Yazılar</strong> diyerek xml formatında kaydediyoruz.
 
