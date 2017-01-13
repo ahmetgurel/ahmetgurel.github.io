@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C & JAVA DİLİNDE ASALSAYILAR
+title: C & Java Dilinde Asalsayılar
 date: 2014-05-13 14:08
 author: ahmetgurel
 comments: true
