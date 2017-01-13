@@ -1,11 +1,5 @@
 ---
 layout: post
-title: Linux
-categories:
-- blog
----
----
-layout: post
 title: Shellter ile Backdoor Hazırlama ve  Sisteme Sızma
 date: 2017-01-12 14:42
 author: ahmetgurel
