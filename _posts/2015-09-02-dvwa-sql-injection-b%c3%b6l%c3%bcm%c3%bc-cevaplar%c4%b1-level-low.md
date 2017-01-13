@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: DVWA-SQL Injection Bölümü Cevapları Level: Low
+title: DVWA-SQL Injection Cevapları Level: Low
 date: 2015-09-02 16:52
 author: ahmetgurel
 comments: true
