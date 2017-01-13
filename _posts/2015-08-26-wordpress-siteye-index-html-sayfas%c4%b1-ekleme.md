@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WordPress Siteye İndex.html Giriş Sayfası Oluşturma
+title: WordPress Siteye Index.html Giriş Sayfası Oluşturma
 date: 2015-08-26 13:20
 author: ahmetgurel
 comments: true
