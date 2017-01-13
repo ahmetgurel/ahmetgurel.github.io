@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Wordpress Blogu  Jekly Taşıma
+title: Wordpress Blogu  Jekyll Taşıma
 date: 2017-01-13 14:22
 author: ahmetgurel
 comments: true
-categories: [jekly, Programlama Dilleri, WordPress, Wordpress Blogunuzu Jekly Taşıma, wordpress yazılarını markdown a çevirmek, wordpress yazılarınız md uzantılı yapmak]
+categories: [jekly, Programlama Dilleri, WordPress, Wordpress Blogunuzu Jekyll Taşıma, wordpress yazılarını markdown a çevirmek, wordpress yazılarınız md uzantılı yapmak]
 ---
 Merhabalar,
 
-Wordpressi benim gibi sadece blog tutmak için kullanan arkadaşlar sürekli wordpress güncellemeleri eklentileri vs bir çok uğraşı bulunmakta fakat bunun yerine son zamanlarda<strong> githubkullaniciadi.github.io</strong> ları görmekteyiz.Github username iniz olmak koşuluyla <strong>githubkullaniciadi.github.io </strong>adlı bir repo oluşturup buna Jekly kurup yayınlayabilirsiniz.Bu yazıda Jekly kurulumunu anlatmayacağım googleda çok fazla kişi yazmış. <a href="http://aristona.github.io/jekyll-ve-github-pages-kullanarak-kendi-blogumuzu-olusturmak">http://aristona.github.io/jekyll-ve-github-pages-kullanarak-kendi-blogumuzu-olusturmak</a> bunlardan birisi bu şekilde adım adım kurabilirsiniz.Eğer buda zor ve uzun bir uğraş gibi geldiyse bununda basit bir yolunu söyleyeyim Jekly kurmuş ve kullanmakta olan birinin reposunu indirerek (Örn: https://github.com/ahmetgurel/ahmetgurel.github.io )  onu kendinizi göre düzenledikten sonra kullanıcıadinizla açtığınız <strong>githubkullaniciadi.github.io </strong>reposuna yüklediğiniz direk çalışacaktır.Kurulumu bu şekilde hallettikden sonra gelelim wordpress yazılarınızı Jekly ye geçirmeye.
+Wordpressi benim gibi sadece blog tutmak için kullanan arkadaşlar sürekli wordpress güncellemeleri eklentileri vs bir çok uğraşı bulunmakta fakat bunun yerine son zamanlarda<strong> githubkullaniciadi.github.io</strong> ları görmekteyiz.Github username iniz olmak koşuluyla <strong>githubkullaniciadi.github.io </strong>adlı bir repo oluşturup buna Jekyll kurup yayınlayabilirsiniz.Bu yazıda Jekyll kurulumunu anlatmayacağım googleda çok fazla kişi yazmış. <a href="http://aristona.github.io/jekyll-ve-github-pages-kullanarak-kendi-blogumuzu-olusturmak">http://aristona.github.io/jekyll-ve-github-pages-kullanarak-kendi-blogumuzu-olusturmak</a> bunlardan birisi bu şekilde adım adım kurabilirsiniz.Eğer buda zor ve uzun bir uğraş gibi geldiyse bununda basit bir yolunu söyleyeyim Jekyll kurmuş ve kullanmakta olan birinin reposunu indirerek (Örn: https://github.com/ahmetgurel/ahmetgurel.github.io )  onu kendinizi göre düzenledikten sonra kullanıcıadinizla açtığınız <strong>githubkullaniciadi.github.io </strong>reposuna yüklediğiniz direk çalışacaktır.Kurulumu bu şekilde hallettikden sonra gelelim wordpress yazılarınızı Jekyll ye geçirmeye.
 
-Wordpressi uzun yıllar kullanınca biriken bu yazıları ona geçirmek biraz insanı üşendirebilir.Jekly markdown .md uzantısı kullanmakta <strong>_post</strong> klasöründe bulunmaktadır.
+Wordpressi uzun yıllar kullanınca biriken bu yazıları ona geçirmek biraz insanı üşendirebilir.Jekyll markdown .md uzantısı kullanmakta <strong>_post</strong> klasöründe bulunmaktadır.
 
 <a href="http://www.gurelahmet.com/wp-content/uploads/2017/01/1.jpg"><img class="alignnone wp-image-680 size-large" src="http://www.gurelahmet.com/wp-content/uploads/2017/01/1-1024x525.jpg" width="976" height="500" /></a>
 
