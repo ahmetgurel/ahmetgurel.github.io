@@ -5,22 +5,22 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  twitter: ahmettgurell
-  github: ahmetgurel
+  twitter: onr_grbz
+  github: onurgurbuz
   #bitbucket: 
   #hacker_news: 
   #stackexchange: 
   #stackoverflow: 
   #facebook: 
   #tumblr: 
-  linkedin: ahmetgurell
+  linkedin: onurgurbuz
   #gplus: 
   #gravatar: 
   #flickr: 
 
-name: Ahmet GÜREL
-email: ahmetgurel.yazilim@gmail.com
-tagline: "Cyber Security, Linux,Python"
+name: Onur GÜRBÜZ
+email: onurgurbuz.yazilim@gmail.com
+tagline: "Development"
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-xxxx-x

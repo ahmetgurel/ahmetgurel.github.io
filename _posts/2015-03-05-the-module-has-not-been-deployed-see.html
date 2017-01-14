@@ -1,0 +1,19 @@
+---
+layout: post
+title: The module has not been deployed. See the server log for details hatası
+date: '2015-03-05T02:21:00.000-08:00'
+author: meteor
+tags:
+- jsp
+- server
+- pages
+- deployed
+- netbeans
+- web
+- java
+modified_time: '2015-03-05T02:21:07.456-08:00'
+blogger_id: tag:blogger.com,1999:blog-6065585967298037059.post-287693129464061881
+blogger_orig_url: http://onurgurbuz.blogspot.com/2015/03/the-module-has-not-been-deployed-see.html
+---
+
+Bu dönem ki Web Teknolojileri ve Programlama dersimizden dolayı Jsp ile uğraşmaya başladım. Ve tabi ki problemle karşılaşmadan bir işe başlanılmıyor :).<br /><br />Projemi derlerken aldığım <i>The module has not been deployed. See the server log for details</i> hatasını internette araştırdım biraz. Sanıyorum ki hatanın birden fazla sebebi var. Benim problemimi giderdiğim çözümü paylaşmak istiyorum.<br /><br /><i>C:\Program Files\NetBeans 8.0.1\etc</i> klasörünün altında ki&nbsp;<i>netbeans.conf</i> dosyasını not defteri ile açıyoruz netbeans_default_options yazan kısmın başına veya sonuna<br /><br /><i>-J-Duser.language=en -J-Duser.region=US</i><br /><br />ekliyoruz. Netbeans' i yeniden başlattığımız büyük ihtimal sorunumuz çözülecektir.<br /><br />Eğer bilgisayarınız<i>&nbsp;netbeans.conf</i>&nbsp; dosyasına değişiklik yapma izni vermiyorsa.&nbsp;<i>netbeans.conf</i>&nbsp; dosyasını masaüstüne taşıyıp orada aynı işlemleri yaptıktan sonra eski yerine alıp sorunu çözebilirsiniz.
