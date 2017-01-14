@@ -3,3 +3,4 @@ highlighter: pygments
 url: onurgurbuz.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+permalink: /:title
