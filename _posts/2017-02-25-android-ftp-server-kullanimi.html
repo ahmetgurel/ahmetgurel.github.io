@@ -1,0 +1,26 @@
+---
+layout: post
+title: Android'de FTP Server Kullanımı
+date: '2017-02-25T02:51:00.000-07:00'
+author: meteor
+blogger_id: tag:blogger.com,1999:blog-6065585967298037059.post-2864667097630993885
+blogger_orig_url: http://onurgurbuz.blogspot.com.tr/2017/02/androidde-ftp-server-kullanm.html
+---
+
+Merhaba arkadaşlar. Android'de FTP Server bağlantısı nasıl yapılır, FTP Server'a nasıl dosya yüklenir kısaca aşağıda anlattım. (Android Studio üzerinden göstereceğim)<br />
+<br />
+Öncelikle bir kütüphane bağımlılığımız var onu indirip projemize entegre etmemiz gerekiyor. Jar dosyasını doğrudan indirmek için istiyorsanız <a href="https://downloads.sourceforge.net/project/ftp4j/ftp4j/1.7.2/ftp4j-1.7.2.zip?r=http%3A%2F%2Fwww.sauronsoftware.it%2Fprojects%2Fftp4j%2Fdownload.php&amp;ts=1488020595&amp;use_mirror=netcologne">şuradan</a>, sitesinden indirmek istiyorsanız <a href="http://www.sauronsoftware.it/projects/ftp4j/download.php">şuradan</a>.<br />
+<br />
+Jar dosyasını projenize şu şekilde dahil edebilirsiniz.<br />
+<br />
+<b>Project </b>görünümünde -&gt; <b>app </b>dizininin altında -&gt; <b>libs</b> klasörüne&nbsp;ftp4j-1.7.2.jar dosyasını atın -&gt; ftp4j-1.7.2.jar dosyasına sağ tıklayıp <b>Add As Library</b> seçeneğine tıklayın.<br />
+<br />
+İnternet bağlantısı gerçekleştireceğimiz için tabii ki manifest dosyasından internet iznini vermeniz gerekiyor.<br />
+<br />
+<pre class="default prettyprint prettyprinted" style="background-color: #eff0f1; border: 0px; color: #393318; font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; font-size: 13px; margin-bottom: 1em; max-height: 600px; overflow: auto; padding: 5px; width: auto; word-wrap: normal;"><code style="border: 0px; font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; margin: 0px; padding: 0px; white-space: inherit;"><span class="tag" style="border: 0px; color: #7d2727; margin: 0px; padding: 0px;">&lt;uses-permission</span><span class="pln" style="border: 0px; color: #303336; margin: 0px; padding: 0px;"> </span><span class="atn" style="border: 0px; color: #e64320; margin: 0px; padding: 0px;">android:name</span><span class="pun" style="border: 0px; color: #303336; margin: 0px; padding: 0px;">=</span><span class="atv" style="border: 0px; color: #0f74bd; margin: 0px; padding: 0px;">"android.permission.INTERNET"</span><span class="pln" style="border: 0px; color: #303336; margin: 0px; padding: 0px;"> </span><span class="tag" style="border: 0px; color: #7d2727; margin: 0px; padding: 0px;">/&gt;</span><span class="pln" style="border: 0px; color: #303336; margin: 0px; padding: 0px;"> </span></code></pre>
+<div>
+<br /></div>
+Şimdi gelelim kod kısmına. Main classınızda işlemleri gerçekleştirebilirsiniz.
+
+<script src="https://gist.github.com/onurgurbuz/8bd8de61cb5ade619bd7e4affbda2035.js"></script>
+
